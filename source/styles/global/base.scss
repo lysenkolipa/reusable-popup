@@ -1,0 +1,31 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  background-color: $main-bg-color;
+  min-width: 600px;
+  min-height: 450px;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.clearfix {
+
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}

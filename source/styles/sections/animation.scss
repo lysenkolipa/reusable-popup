@@ -1,0 +1,15 @@
+.element-animation {
+  animation: animationFrames linear .8s;
+}
+
+@keyframes animationFrames {
+  from { top: 50%; left: 0; }
+  to   { top: 50%; left: 50%; }
+}
+
+
+.new-animation {
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+

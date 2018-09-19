@@ -1,0 +1,40 @@
+.btn {
+  width: 210px;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 20px;
+}
+.normal {
+  border: 2px solid $normal-color-dark;
+  color: $color-main;
+  &:hover {
+    background-color: $normal-color-dark;
+    border-bottom: 2px solid lightgray;
+    color: $color-light;
+  }
+  &:active {
+    background-color: $normal-color-light;
+    border-bottom: 2px solid #D3D3D3;
+    color: $color-dark;
+  }
+}
+.danger {
+  background-color: $warning-color;
+  color:$color-light;
+  border:unset;
+  border-bottom: 2px solid $warning-color-dark;
+  &:hover {
+    background-color: $warning-color;
+    border-bottom: 2px solid $warning-color;
+  }
+  &:active {
+    background-color: $warning-color-dark;
+    border-bottom: 2px solid $warning-color;
+  }
+}
+
+.main-btn {
+  background-color: transparent;
+  color:$color-light;
+  border: 2px solid $normal-color-light;
+}
